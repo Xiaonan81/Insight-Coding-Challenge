@@ -16,7 +16,7 @@ This code was written to use Python 2.7. Please make sure that you do not attemp
 
 [Back to Table of Contents] (README.md#table-of-contents)
 
-This code doesn't use any third party packages. It does, however, use the difaultdict data type available from the collections package that should come standard with Python 2.7.
+This code doesn't use any third party packages. It does, however, use the defaultdict data type available from the collections package that should come standard with Python 2.7.
 
 
 ##Details of Implementation
