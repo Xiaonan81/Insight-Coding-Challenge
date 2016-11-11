@@ -31,7 +31,7 @@ This coding challenge is a classic example of a problem appropriate for graph th
 
 In addition to the simple test provided by Insight in the insight_testsuite directory, I also made a slightly more sophisticated test in the my-test-paymo-trans directory. This test checked that the new streaming transactions were in fact added to the graph and that all three output files contained the correct string ('trusted' or 'unverified') for the various transactions. I also ran the run_tests.sh to ensure that I passed the default test provided by Insight.
 
-As far as the time it takes this code to determine whether or not a tranaction is verified or unverified, I allowed the code to process the first 1000 tranactions in the stream_payment.txt file provided by insight. On average, it takes 0.7 sec per transaction. The most connected users maxed out at 3.5-4.5 sec per transaction. It should be noted that these tests were run on a 2008 MacBook with a 2.4 GHz Intel Core 2 Duo Processor and 8 GB of 1067 MHz RAM. I anticipate that most modern servers that would typically run this code would far outperform my machine. 
+As far as the time it takes this code to determine whether or not a transaction is verified or unverified, I allowed the code to process the first 1000 tranactions in the stream_payment.txt file provided by insight. On average, it takes 0.7 sec per transaction. The most connected users maxed out at 3.5-4.5 sec per transaction. It should be noted that these tests were run on a 2008 MacBook with a 2.4 GHz Intel Core 2 Duo Processor and 8 GB of 1067 MHz RAM. I anticipate that most modern servers that would typically run this code would far outperform my machine. 
 
 ##Repo directory structure
 [Back to Table of Contents] (README.md#table-of-contents)
